@@ -2,8 +2,7 @@ import profile from "../assets/profile.jpg";
 import resume from "../assets/resume.pdf";
 function Hero() {
   return (
-    <section className="min-h-screen flex flex-col md:flex-row justify-center items-center gap-12 px-6">
-
+    <section className="min-h-screen flex flex-col md:flex-row justify-center items-center gap-12 px-6 pt-32">
       <div className="text-center md:text-left">
 
         <h1 className="text-6xl md:text-7xl font-extrabold mb-4 bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
