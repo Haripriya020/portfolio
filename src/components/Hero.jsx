@@ -49,7 +49,7 @@ function Hero() {
 <div className="flex flex-wrap gap-4 mt-6 justify-center md:justify-start">
 
   <a
-    href="https://github.com/haripriya"
+    href="https://github.com/Haripriya020"
     target="_blank"
     rel="noopener noreferrer"
     className="bg-slate-800 border border-cyan-400 px-5 py-3 rounded-lg hover:bg-cyan-500 hover:text-black transition"

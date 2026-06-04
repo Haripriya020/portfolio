@@ -37,8 +37,8 @@ function Projects() {
       title: "Personal Portfolio Website",
       tech: "React • Tailwind CSS • GitHub Pages",
       desc: "Modern responsive portfolio showcasing projects, skills, publications, certifications and professional experience.",
-      demo: "#",
-      github: "#",
+      demo: "https://haripriya020.github.io/portfolio/",
+      github: "https://github.com/Haripriya020/portfolio",
       featured: false
     }
   ];
