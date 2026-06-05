@@ -45,9 +45,9 @@ function Projects() {
 
   return (
     <section
-      id="projects"
-      className="max-w-6xl mx-auto px-6 py-24"
-    >
+  id="projects"
+  className="max-w-6xl mx-auto px-6 py-24 scroll-mt-24"
+>
 
       <h2 className="text-4xl font-bold text-center mb-12 bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
         Projects
