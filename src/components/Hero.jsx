@@ -3,8 +3,7 @@ import resume from "../assets/resume.pdf";
 
 function Hero() {
   return (
-    <section className="min-h-screen flex flex-col md:flex-row justify-center items-center gap-12 px-6 pt-32">
-
+<section className="relative z-50 min-h-screen flex flex-col md:flex-row justify-center items-center gap-12 px-6 pt-32">
       <div className="text-center md:text-left">
 
         <h1 className="text-6xl md:text-7xl font-extrabold mb-4 bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
@@ -22,40 +21,32 @@ function Hero() {
           impactful solutions.
         </p>
 
-        <div className="flex flex-wrap gap-4 mt-8 justify-center md:justify-start">
+    <div className="flex flex-wrap gap-4 mt-8 justify-center md:justify-start">
 
-          <button
-            onClick={() =>
-              document.getElementById("projects")?.scrollIntoView({
-                behavior: "smooth",
-              })
-            }
-            className="bg-cyan-500 px-6 py-3 rounded-lg font-semibold"
-          >
-            View Projects
-          </button>
+  <a
+    href="#projects"
+    className="bg-cyan-500 px-6 py-3 rounded-lg font-semibold"
+  >
+    View Projects
+  </a>
 
-          <button
-            onClick={() =>
-              document.getElementById("contact")?.scrollIntoView({
-                behavior: "smooth",
-              })
-            }
-            className="border border-cyan-500 px-6 py-3 rounded-lg"
-          >
-            Contact Me
-          </button>
+  <a
+    href="#contact"
+    className="border border-cyan-500 px-6 py-3 rounded-lg"
+  >
+    Contact Me
+  </a>
 
-          <a
-            href={resume}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-gradient-to-r from-cyan-500 to-blue-600 px-6 py-3 rounded-lg font-semibold text-white"
-          >
-            Download Resume
-          </a>
+  <a
+    href={resume}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-gradient-to-r from-cyan-500 to-blue-600 px-6 py-3 rounded-lg font-semibold text-white"
+  >
+    Download Resume
+  </a>
 
-        </div>
+</div>
 
         <div className="flex flex-wrap gap-4 mt-6 justify-center md:justify-start">
 

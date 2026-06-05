@@ -12,9 +12,9 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="bg-gradient-to-b from-slate-950 via-slate-900 to-black text-white min-h-screen">
-     <div className="fixed top-20 left-20 w-72 h-72 bg-cyan-500/20 rounded-full blur-3xl"></div>
+     <div className="fixed top-20 left-20 w-72 h-72 bg-cyan-500/20 rounded-full blur-3xl pointer-events-none"></div>
 
-<div className="fixed bottom-20 right-20 w-72 h-72 bg-blue-500/20 rounded-full blur-3xl"></div>
+<div className="fixed bottom-20 right-20 w-72 h-72 bg-blue-500/20 rounded-full blur-3xl pointer-events-none"></div>
       <Navbar />
       <Hero />
       <About />
