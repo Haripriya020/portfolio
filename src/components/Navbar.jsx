@@ -16,12 +16,14 @@ function Navbar() {
         <ul className="hidden md:flex gap-6 text-sm">
           <li><a href="#about">About</a></li>
           <li><a href="#skills">Skills</a></li>
+             <li><a href="#education">Education</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#publication">Publication</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#achievements">Achievements</a></li>
           <li><a href="#certifications">Certifications</a></li>
           <li><a href="#contact">Contact</a></li>
+       
         </ul>
 
         {/* Mobile Hamburger */}
@@ -49,6 +51,12 @@ function Navbar() {
             <li>
               <a href="#skills" onClick={() => setMenuOpen(false)}>
                 Skills
+              </a>
+            </li>
+            
+            <li>
+              <a href="#education" onClick={() => setMenuOpen(false)}>
+                Education
               </a>
             </li>
 
