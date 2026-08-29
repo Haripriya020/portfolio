@@ -17,7 +17,7 @@ function Skills() {
 
     {
       title: "Databases",
-      skills: ["MySQL", "MongoDB", "SQLite"],
+      skills: ["MySQL", "SQLite"],
     },
 
     {
@@ -25,7 +25,7 @@ function Skills() {
       skills: [
         "Selenium WebDriver",
         "Postman",
-        "Manual Testing",
+        "Junit Testing",
         "Functional Testing",
       ],
     },
@@ -46,7 +46,7 @@ function Skills() {
         "Git",
         "GitHub",
         "VS Code",
-        "Adobe Dreamweaver",
+        "Android Studio",
       ],
     },
   ];
