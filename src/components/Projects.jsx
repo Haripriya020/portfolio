@@ -5,8 +5,8 @@ function Projects() {
       type: "Android Application",
       tech: "Java • XML • Android • Gemini API • TensorFlow Lite • CameraX",
       desc: "Designed and built an assistive Android application integrating the Gemini API for AI-powered voice interaction and TensorFlow Lite (TFLite) for on-device real-time object detection, using CameraX for camera processing to support visually impaired users.",
-      github: null,
-      demo: null,
+      demo: "https://github.com/Haripriya020/Ecobot/releases/download/v2.0.0/app-release.apk",
+      github: "https://github.com/Haripriya020/Ecobot",
       featured: true,
     },
 
@@ -80,7 +80,9 @@ function Projects() {
                   rel="noopener noreferrer"
                   className="bg-cyan-500 text-black px-5 py-2 rounded-lg font-semibold hover:scale-105 transition"
                 >
-                  Live Demo
+                  {project.title === "EchoBot"
+                    ? "Download APK"
+                    : "Live Demo"}
                 </a>
               )}
 
